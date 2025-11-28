@@ -21,4 +21,5 @@ mpirun -n {number of nodes in input graph} ./{object filename} {input grapph fil
 Example : 
 
 mpicxx -std=c++17 -O2 -o ghs ghs.cpp
+
 mpirun -n 5 ./ghs graph.txt
