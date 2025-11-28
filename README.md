@@ -16,6 +16,7 @@ sudo apt install openmpi-bin openmpi-common libopenmpi-dev
 Commands to run : 
 
 mpicxx -std=c++17 -O2 -o {object filename} ghs.cpp
+
 mpirun -n {number of nodes in input graph} ./{object filename} {input grapph filename}.txt
 
 Example : 
