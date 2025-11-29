@@ -56,3 +56,9 @@ Terminals 2..K-2 (workers) :
 
 ./boruvka_zmq graph.txt 3 4
 
+
+
+
+## commands for cluster :
+
+salloc --nodes=1 --ntasks=10 --time=00:30:00
