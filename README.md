@@ -48,7 +48,7 @@ Root terminal :
 ./boruvka_zmq graph.txt 0 K
 
 
-Terminals 2..K-2 (workers) :
+Terminals 2..K-1 (workers) :
 
 ./boruvka_zmq graph.txt 1 4
 
