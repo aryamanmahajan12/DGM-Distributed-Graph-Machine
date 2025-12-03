@@ -97,7 +97,7 @@ void wakeup() {
 
     vector<double> msg = {(double)MSG_CONNECT, (double)level_frag};
     send_double_msg(adj[idx].nb, MSG_CONNECT, msg);
-    debug_print("wakeup: sent CONNECT to " + to_string(adj[idx].nb));
+    //debug_print("wakeup: sent CONNECT to " + to_string(adj[idx].nb));
 }
 
 void send_initiate(int to, int level, int fid, int st)
