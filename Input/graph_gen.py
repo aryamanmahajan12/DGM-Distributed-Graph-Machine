@@ -1,8 +1,8 @@
 import random
 
 # Parameters
-num_nodes = 1000
-num_edges = 1500
+num_nodes = 300
+num_edges = 5000
 
 # First, create a spanning tree to ensure connectivity (999 edges)
 edges = []
@@ -31,8 +31,8 @@ while len(edges) < num_edges:
             edge_set.add(edge_tuple)
 
 # Write all edges to file
-with open('graph_l.txt', 'w') as f:
+with open('../K-Machines/graph.txt', 'w') as f:
     for u, v, w in edges:
         f.write(f"{u} {v} {w}\n")
 
-print(f"Successfully wrote {len(edges)} edges to graph_l.txt")
+print(f"Successfully wrote {len(edges)} edges to K-Machines/graph.txt")
